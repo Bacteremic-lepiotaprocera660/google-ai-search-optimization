@@ -4,6 +4,8 @@ An open Agent Skill for applying Google's official guidance on optimizing websit
 
 This skill helps AI agents explain, audit, plan, and implement SEO work based on Google's current public recommendations. It focuses on practical Search fundamentals: crawlability, indexability, helpful non-commodity content, media SEO, structured data, ecommerce/local details, and agent-friendly site readiness.
 
+Primary source: [Google's guide to optimizing for generative AI features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide).
+
 ## Install
 
 Install with the open [`skills` CLI](https://github.com/vercel-labs/skills):
@@ -12,16 +14,12 @@ Install with the open [`skills` CLI](https://github.com/vercel-labs/skills):
 npx skills add deepakness/google-ai-search-optimization
 ```
 
-Install only this skill explicitly:
+The CLI may ask whether to install for the current project or globally.
+
+To force a global install:
 
 ```bash
-npx skills add deepakness/google-ai-search-optimization --skill google-ai-search-optimization
-```
-
-Install globally:
-
-```bash
-npx skills add deepakness/google-ai-search-optimization --skill google-ai-search-optimization --global
+npx skills add deepakness/google-ai-search-optimization --global
 ```
 
 List available skills before installing:
