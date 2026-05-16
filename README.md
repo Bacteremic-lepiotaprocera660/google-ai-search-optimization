@@ -1,0 +1,84 @@
+# Google AI Search Optimization Skill
+
+An open Agent Skill for applying Google's official guidance on optimizing websites for generative AI features in Google Search, including AI Overviews and AI Mode.
+
+This skill helps AI agents explain, audit, plan, and implement SEO work based on Google's current public recommendations. It focuses on practical Search fundamentals: crawlability, indexability, helpful non-commodity content, media SEO, structured data, ecommerce/local details, and agent-friendly site readiness.
+
+## Install
+
+Install with the open [`skills` CLI](https://github.com/vercel-labs/skills):
+
+```bash
+npx skills add deepakness/google-ai-search-optimization
+```
+
+Install only this skill explicitly:
+
+```bash
+npx skills add deepakness/google-ai-search-optimization --skill google-ai-search-optimization
+```
+
+Install globally:
+
+```bash
+npx skills add deepakness/google-ai-search-optimization --skill google-ai-search-optimization --global
+```
+
+List available skills before installing:
+
+```bash
+npx skills add deepakness/google-ai-search-optimization --list
+```
+
+## What It Covers
+
+- How Google AI Overviews and AI Mode relate to normal Google Search.
+- Why SEO still matters for generative AI Search.
+- Retrieval-augmented generation, query fan-out, and Search-index grounding.
+- Helpful, reliable, people-first content.
+- Non-commodity content and firsthand expertise.
+- Crawlability, indexing, snippets, canonicalization, JavaScript SEO, and page experience.
+- Image and video SEO for AI-era Search visibility.
+- Structured data without treating schema as an AI-specific ranking trick.
+- Ecommerce and local business details through Merchant Center and Business Profile.
+- Myth-busting around AEO/GEO hacks, `llms.txt`, content chunking, fake mentions, and AI-only rewrites.
+- Agent-friendly website readiness.
+
+## Repository Structure
+
+```text
+.
+├── README.md
+└── skills
+    └── google-ai-search-optimization
+        ├── SKILL.md
+        └── references
+            ├── audit-playbook.md
+            └── google-ai-search-principles.md
+```
+
+## Usage Examples
+
+Ask your AI agent:
+
+```text
+Use the google-ai-search-optimization skill to audit this product page for Google AI Search readiness.
+```
+
+```text
+Use the google-ai-search-optimization skill to turn this SEO advice into a prioritized implementation plan.
+```
+
+```text
+Use the google-ai-search-optimization skill to check whether adding llms.txt helps with Google AI Overviews.
+```
+
+## Notes
+
+This skill summarizes and operationalizes public Google guidance, but it is not a replacement for the live docs. For current policy-sensitive advice, verify against the official Google sources linked inside the skill references.
+
+The `skills` CLI may collect anonymous install telemetry. To opt out:
+
+```bash
+DISABLE_TELEMETRY=1 npx skills add deepakness/google-ai-search-optimization
+```
