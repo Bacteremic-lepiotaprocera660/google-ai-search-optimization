@@ -30,6 +30,34 @@ List available skills before installing:
 npx skills add deepakness/google-ai-search-optimization --list
 ```
 
+## Manual Install
+
+You can also clone or download this repository and copy the skill folder directly.
+
+Project-local install for agents that use the common `.agents/skills` path:
+
+```bash
+git clone https://github.com/deepakness/google-ai-search-optimization.git
+mkdir -p .agents/skills
+cp -R google-ai-search-optimization/skills/google-ai-search-optimization .agents/skills/
+```
+
+Global Codex install:
+
+```bash
+mkdir -p ~/.codex/skills
+cp -R google-ai-search-optimization/skills/google-ai-search-optimization ~/.codex/skills/
+```
+
+Global Claude Code install:
+
+```bash
+mkdir -p ~/.claude/skills
+cp -R google-ai-search-optimization/skills/google-ai-search-optimization ~/.claude/skills/
+```
+
+The folder you copy should contain `SKILL.md` at its root.
+
 ## What It Covers
 
 - How Google AI Overviews and AI Mode relate to normal Google Search.
